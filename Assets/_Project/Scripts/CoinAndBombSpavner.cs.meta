@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: 49bdbbac11ea95141b5d068aef9cbd18
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - _coinPrefab: {fileID: 6773656143524362528, guid: 6f254960ac5eff34ab74be8186fbd382, type: 3}
+  - _bombPrefab: {instanceID: 0}
+  - _coinParent: {instanceID: 0}
+  - _bonbParent: {instanceID: 0}
+  - _cornerA: {instanceID: 0}
+  - _cornerB: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

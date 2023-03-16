@@ -1,0 +1,156 @@
+<!doctype html>
+<html lang="ru">
+<style type="text/css">
+   .space { 
+    padding: 150px; /* Поля */
+    background: #FFC300; /* Цвет фона */
+    border: 100px; /* Параметры рамки */
+   }
+  .lef {
+}
+</style>
+<style type="text/css">
+   .main { 
+    color: #a72b2d;
+	text-align: center;
+   }
+  </style>
+<style>
+	table.master {
+    width: 100%; /* Ширина таблицы */
+    border: 1px solid #666; /* Рамка вокруг таблицы */
+	bordercolor: #80807e;
+	cellpadding: 10px;
+	cellspacing: 2px;
+	background: linear-gradient(180deg, #fdfdff, #0000fe, #fd0002);
+   }
+   tr {
+    border: 1px solid grey;
+    text-align: left; /* Выравнивание по левому краю */
+   }
+	td {
+    border: 1px solid grey;
+    text-align: left; /* Выравнивание по левому краю */
+   }
+   tr.main {
+	border: 1px solid #666;
+    color: #000002;
+	background-color: #ffc0cb;
+	text-align: center;
+	font-weight: 700; 
+   }
+<style type="text/css">
+   .maintable { 
+    
+   }
+  </style>	
+<style>
+	.pram {
+		position: absolute;
+		display: inline-block;
+		border: 1px solid #000000; /* Рамка вокруг таблицы */
+		width: 20%; 
+		height: 90px; 
+}
+	.pram.white {
+		background: #ffffff; 
+}
+	.pram.blue {
+		background: #8eb9fd; 
+}
+	.pram.red {
+		background: #ff5b5a; 
+}
+	</style>
+	
+	
+<head>
+<meta charset="utf-8">
+<title>Лаба6</title>
+</head>
+<body>
+	<div class="space">
+		<div class="main"><h2> Задание 1.1. Основы форматирования в Word</h2>
+		Шрифт</div>
+	Настройка формата <i>выделенных</i> символов осуществляется в диалоговом окне Шрифт и включает такие характеристики:<br>
+	<ul>
+		<li>шрифт (
+			<font face="Arial">Arial</font>,
+			<font face="Times">Times</font>,
+			<font face="Courier">Courier</font>,
+			<font face="ahoma">ahoma</font>,
+			<font face="Calibri">Calibri</font> и т.п.);</li>
+		<li>начертание (
+			обычный,
+			<i>курсив</i>,
+			<b>полужирный</b>,
+			<b><i>полужирный курсив</i></b>);</li>
+		<li>размер (
+			<small><small>очень маленький</small></small>,
+			<small>маленький</small>,
+			средний,
+			<big>крупный</big> и т. д.);</li>
+		<li><u>подчеркивание</u>, <s>зачеркивание</s>;</li>
+		<li>цвет символов (
+			<font color="red">красный</font>,
+			<font color="green"> зеленый</font>,
+			<font color="blue"> синий</font> и т.п.);</li>
+		<li>индексы (<sup>надстрочный</sup>, <sub>подстрочный</sub>).</li>
+	</ul>
+	<div class="main">Абзац</div>
+	Формат абзаца в диалоговом окне Абзац включает такие параметры:<br>
+	Способ выравнивания:<br>
+	<p align="left">по левому краю;</p>
+	<p align="right">по правому краю;</p>
+	<p align="center"> по центру.</p>
+	Текст может иметь отступы от края и выравнивание по ширине. Например, произвольный абзац:<br>
+	<p align="justify">
+	В Word реализованы два принципиально отличных способа форматирования текста – прямое (или непосредственное) форматирование и форматирование с использованием стилей. При прямом форматировании выделенному фрагменту поочередно назначаются необходимые параметры оформления. Преимущество стилевого оформления заключается в том, что выбранному объекту (обычно это абзац) назначается целый набор параметров форматирования (стиль форматирования), который формируется заранее и имеет имя. Стиль форматирования может содержать параметры шрифта, абзаца, табуляции, обрамления, заливки, указания на используемый язык для расстановки переносов и проверки орфографии.</p>
+	<p align="center"><b>Сочетания клавиш, используемые для изменения формата текста</b></p>
+
+	<table class="master">
+	<tr class="main">
+		<td>Открытие диалогового окна Шрифт</td>
+		<td>Ctrl + D</td>
+	</tr>
+	<tr>
+		<td>Применение полужирного начертания</td>
+		<td>Ctrl + B</td>
+	</tr>
+	<tr>
+		<td>Применение курсивного начертания</td>
+		<td>Ctrl + I</td>
+	</tr>
+	<tr>
+		<td>Выравнивание по ширине</td>
+		<td>Ctrl + J</td>
+	</tr>
+	<tr>
+		<td>Вставка только форматирования</td>
+		<td>Ctrl + Shift + V</td>
+	</tr>
+	<tr>
+		<td>Добавление подчеркивания (одинарного)</td>
+		<td>Ctrl + U</td>
+	</tr>
+	<tr>
+		<td>Подчеркивание слов (не пробелов)</td>
+		<td>Ctrl + Shift + W</td>
+	</tr>
+	</table>
+		<div style="margin-top:37px"></div>
+		<div style="wight : 80%; position: relative">
+		<div style="position: absolute;left:0;right:0">
+			<div class="pram white"></div>
+			<div style="position: relative; top:45px; left:10%"><div class="pram blue"></div></div>
+			<div style="position: relative; left:22%"><div class="pram red"></div></div>
+			<div style="position: relative; top:45px; left:32%"><div class="pram white"></div></div>
+			<div style="position: relative; left:44%"><div class="pram blue"></div></div>
+			<div style="position: relative; top:45px; left:54%"><div class="pram red"></div></div>
+			<div style="position: relative; left:66%"><div class="pram white"></div></div>
+		</div>	
+		</div>
+		<div style="margin-top:150px"></div>
+	</div >
+</body>
+</html>
